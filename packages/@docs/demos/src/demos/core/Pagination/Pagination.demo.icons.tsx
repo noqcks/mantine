@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {
   IconArrowBarToLeft,
   IconArrowBarToRight,
@@ -59,7 +59,7 @@ function Demo() {
         previousIcon={() => <IconArrowLeft stroke="2" />}
         firstIcon={() => <IconArrowBarToLeft stroke="2" />}
         lastIcon={() => <IconArrowBarToRight stroke="2" />}
-        dotsIcon={() => <IconGripHorizontal stroke="2" />}}
+        dotsIcon={() => <IconGripHorizontal stroke="2" />}
       />
 
       {/* Compound pagination */}
