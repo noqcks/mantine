@@ -65,11 +65,11 @@ function Demo() {
       {/* Compound pagination */}
       <Pagination.Root total={10}>
         <Group gap={7} mt="xl">
-          <Pagination.First icon={IconArrowBarToLeft} />
-          <Pagination.Previous icon={IconArrowLeft} />
-          <Pagination.Items dotsIcon={IconGripHorizontal} />
-          <Pagination.Next icon={IconArrowRight} />
-          <Pagination.Last icon={IconArrowBarToRight} />
+          <Pagination.First icon={() => <IconArrowBarToLeft stroke="2" />} />
+          <Pagination.Previous icon={() => <IconArrowLeft stroke="2" />} />
+          <Pagination.Items dotsIcon={() => <IconGripHorizontal stroke="2" />} />
+          <Pagination.Next icon={() => <IconArrowRight stroke="2" />} />
+          <Pagination.Last icon={() => <IconArrowBarToRight stroke="2" />} />
         </Group>
       </Pagination.Root>
     </>
