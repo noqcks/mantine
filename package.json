@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "@floating-ui/react": "^0.26.9",
-    "@tabler/icons-react": "^2.40.0",
+    "@tabler/icons-react": "^3.1.0",
     "@tiptap/core": "^2.2.1",
     "@tiptap/extension-code-block": "^2.2.1",
     "@tiptap/extension-code-block-lowlight": "^2.2.1",

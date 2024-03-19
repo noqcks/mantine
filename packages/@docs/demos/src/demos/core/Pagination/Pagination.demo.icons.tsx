@@ -26,11 +26,11 @@ function Demo() {
       <Pagination
         total={10}
         withEdges
-        nextIcon={IconArrowRight}
-        previousIcon={IconArrowLeft}
-        firstIcon={IconArrowBarToLeft}
-        lastIcon={IconArrowBarToRight}
-        dotsIcon={IconGripHorizontal}
+        nextIcon={<IconArrowRight stroke="2" />}
+        previousIcon={<IconArrowLeft stroke="2" />}
+        firstIcon={<IconArrowBarToLeft stroke="2" />}
+        lastIcon={<IconArrowBarToRight stroke="2" />}
+        dotsIcon={<IconGripHorizontal stroke="2" />}
       />
 
       {/* Compound pagination */}
