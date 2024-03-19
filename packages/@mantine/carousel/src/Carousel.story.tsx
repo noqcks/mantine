@@ -67,7 +67,7 @@ export function Vertical() {
 }
 
 export function AutoPlay() {
-  const autoplay = useRef(Autoplay({ delay: 500, stopOnInteraction: false, jump: false, playOnInit: true, stopOnFocusIn: false, stopOnMouseEnter: false, stopOnLastSnap: false, rootNode: null }));
+  const autoplay = useRef(Autoplay({ delay: 500, stopOnInteraction: false, jump: false, playOnInit: true, stopOnFocusIn: false, stopOnMouseEnter: false, stopOnLastSnap: false, rootNode: null, active: true, breakpoints: {} }));
 
   return (
     <div style={{ padding: 40, maxWidth: 500 }}>
