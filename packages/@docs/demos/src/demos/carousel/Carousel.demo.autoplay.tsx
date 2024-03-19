@@ -10,7 +10,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import { Carousel } from '@mantine/carousel';
 
 function Demo() {
-  const autoplay = useRef(Autoplay({ delay: 2000, options: { active: true } }));
+  const autoplay = useRef(Autoplay({ delay: 2000, startActive: true }));
   return (
     <Carousel
       withIndicators
