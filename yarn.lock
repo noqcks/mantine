@@ -11863,6 +11863,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"embla-carousel-autoplay@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "embla-carousel-autoplay@npm:8.0.0"
+  peerDependencies:
+    embla-carousel: 8.0.0
+  checksum: 10c0/4a7d233c629e549d05ef931f10de550cba757f68ea37617f76b5e7f1f637e1639f402aefaf1f52cd6aefcb148bb9478482a25dbfb1aa47bbc1661c87ecfc5599
+  languageName: node
+  linkType: hard
+
 "embla-carousel-react@npm:^7.1.0":
   version: 7.1.0
   resolution: "embla-carousel-react@npm:7.1.0"
@@ -16987,7 +16996,7 @@ __metadata:
     cssnano: "npm:^6.0.1"
     dayjs: "npm:^1.11.10"
     embla-carousel: "npm:^7.1.0"
-    embla-carousel-autoplay: "npm:^7.1.0"
+    embla-carousel-autoplay: "npm:^8.0.0"
     embla-carousel-react: "npm:^7.1.0"
     esbuild: "npm:^0.19.5"
     esbuild-jest: "npm:^0.5.0"
