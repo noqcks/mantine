@@ -10,7 +10,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import { Carousel } from '@mantine/carousel';
 
 function Demo() {
-  const autoplay = useRef(Autoplay({ delay: 2000, jump: false, playOnInit: true, stopOnFocusIn: true, stopOnInteraction: true, stopOnMouseEnter: true, stopOnLastSnap: false, rootNode: null }));
+  const autoplay = useRef(Autoplay({ delay: 2000, jump: false, playOnInit: true, stopOnFocusIn: true, stopOnInteraction: true, stopOnMouseEnter: true, stopOnLastSnap: false, rootNode: null, active: true, breakpoints: {} }));
   return (
     <Carousel
       withIndicators
