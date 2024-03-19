@@ -29,7 +29,7 @@ function Demo() {
 `;
 
 function Demo() {
-  const autoplay = useRef(Autoplay({ delay: 2000, startActive: true }));
+  const autoplay = useRef(Autoplay({ delay: 2000 }));
 
   return (
     <Carousel
