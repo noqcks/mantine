@@ -179,7 +179,7 @@
     "simple-git": "^3.20.0",
     "storybook": "^7.5.3",
     "storybook-dark-mode": "^3.0.1",
-    "style-loader": "^3.3.3",
+    "style-loader": "4.0.0",
     "stylelint": "^16.2.1",
     "stylelint-config-standard-scss": "^13.0.0",
     "syncpack": "^12.3.0",
